@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">        
     <title>Vega Servicios tecnicos</title>
 </head>
 <body>
@@ -27,17 +28,83 @@
         </div>
     </header>
     <main>
+        <div>
+            <div class="contenedorTitulos">
+                <h3>Contacto</h3>
+            </div>
+        </div>
+        <div class="subtitulos">
+            <h4>Ponte en contacto con Nosotros</h4>
+        </div>
+        <div class="contenedorContenido">
+            <h2>Contactanos:</h2>
+        </div>
+        <div class="contenedorContenido">
+                <p>Si requieres de una cotizacion, un servicio, refacciones o costos de algun<br>
+                servicio sin compromiso, llena nuestro formulario y contactanos.</p>
+        </div>
+        <div>
+            <form action="submint" method="post"></form>
+            <div class="contenedorContenido">
+                <label for="nombre" method="post">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="form">
+                <label for="colonia">Municipio</label>
+                <select name="" id="">
+                <option value="">Guadalupe</option>
+                <option value="">Juarez</option>
+                <option value="">Apodaca</option>
+                <option value="">Monterrey</option>
+                <option value="">Otra...</option>    
+                </select>
+            </div>
+            <div class="form">
+                <label for="colonia" method="post">Colonia</label>
+                <input type="text" name="colonia" id="colonia">
+            </div>
+            <div class="form">
+                <label for="calle" method="post">Calle</label>
+                <input type="text" name="calle" id="calle">
+            </div>
+            <div class="form">
+                <label for="numero" method="post">Numero</label>
+                <input type="text" name="numero" id="nuemero">
+            </div>
+            <div class="form">
+                <label for="telefono" method="post">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono">
+            </div>
+            <div class="form">
+                <label for="correo" method="post">Correo</label>
+                <input type="text" name="correo" id="correo">
+            </div>
+            <div class="form">
+                <label for="comentarios" method="post">Comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <div class="form">
+                <input type="submit" value="Enviar">
+            </div>
+        </div>
     </main>
-        <footer>
+    <footer>
         <div class="aliniacionFooter">
             <div class="contenedorFooter">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="pages/servicios.html">Servicios</a></li>
-                    <li><a href="pages/noticias.html">Noticias</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul>
+                <div class="enlacesfooter">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="pages/servicios.html">Servicios</a></li>
+                    </ul>
+                </div>
+                <div class="enlacesfooter">
+                    <ul>
+                        <li><a href="pages/noticias.html">Noticias</a></li>
+                        <li><a href="pages/contacto.html">Contacto</a></li> 
+                    </ul>
+                </div>
+                
             </div>
             <div class="contenedorFooter">
                 <div>
@@ -51,7 +118,7 @@
                 <div>
                     <p>Siguenos</p>
                 </div>
-                <div>
+                <div> 
                     <div class="imagesFooter"><img src="../assets/icons/facebook.png" alt="facebook"></div>
                     <div class="imagesFooter"><img src="../assets/icons/instagram.png" alt="instagram"></div>
                     <div class="imagesFooter"><img src="../assets/icons/whatsapp.png" alt="whatsapp"></div>
@@ -62,4 +129,5 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
